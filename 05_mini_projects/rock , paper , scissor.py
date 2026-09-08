@@ -1,4 +1,4 @@
-
+import random
 
 choices = ["🪨 Rock", "📄 Paper", "✂️ Scissors"]
 
@@ -29,10 +29,24 @@ elif (jaanvar_choice == "🪨 Rock" and Mac == "✂️ Scissors") or \
 else:
     print("😈 Mac wins!")
 
+# SCORE BOARD
+if jaanvar_choice == Mac:
+    jaanvar_score = 0
+    mac_score = 0
 
-age = int(input(" enter your age: "))
+elif (jaanvar_choice == "🪨 Rock" and Mac == "✂️ Scissors") or \
+     (jaanvar_choice == "📄 Paper" and Mac == "🪨 Rock") or \
+     (jaanvar_choice == "✂️ Scissors" and Mac == "📄 Paper"):
+    jaanvar_score = 1
+    mac_score = 0
 
+else:
+    jaanvar_score = 0
+    mac_score = 1
 
+print("\n🏆 ===== SCORE BOARD =====")
+print("👤 Jaanvar:", jaanvar_score)
+print("💻 Mac:", mac_score)
 
 
 
