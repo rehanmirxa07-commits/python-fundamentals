@@ -1,4 +1,4 @@
-import random
+
 
 choices = ["🪨 Rock", "📄 Paper", "✂️ Scissors"]
 
@@ -31,7 +31,6 @@ else:
 
 
 age = int(input(" enter your age: "))
-name = "rehan"
 
 
 
