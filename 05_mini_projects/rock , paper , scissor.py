@@ -15,7 +15,7 @@ else:
     print("❌ Invalid choice!")
     exit()
 
-print("Jaanvar chose:", player_choice)
+print("Jaanvar chose:", jaanvar_choice)
 print("Mac choose:", Mac)
 
 if jaanvar_choice == Mac:
