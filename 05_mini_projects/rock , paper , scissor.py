@@ -29,7 +29,10 @@ elif (jaanvar_choice == "🪨 Rock" and Mac == "✂️ Scissors") or \
 else:
     print("😈 Mac wins!")
 
-print(" gigga ")
+
+age = int(input(" enter your age: "))
+
+
 
 
 
