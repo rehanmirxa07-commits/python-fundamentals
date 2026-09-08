@@ -31,6 +31,7 @@ else:
 
 
 age = int(input(" enter your age: "))
+name = "rehan"
 
 
 
