@@ -14,3 +14,7 @@ my_workout.add_exercise("Bench Press")
 my_workout.add_exercise("Incline Dumbbell Press")
 
 my_workout.show_workout()
+
+        
+
+    
